@@ -7,7 +7,7 @@ package tasks;
 public class Task3 {
     public static void main(String[] args) {
 
-        int rubles = 203;
+        int rubles = 213;
         System.out.println(endWord(rubles));
 
     }
