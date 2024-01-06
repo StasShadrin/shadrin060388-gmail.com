@@ -6,10 +6,10 @@ package tasks;
 public class Task1 {
     public static void main(String[] args) {
         int month = 1;
-        System.out.println(Season(month));
+        System.out.println(season(month));
     }
 
-    static String Season (int month) {
+    static String season (int month) {
         return switch (month) {
             case 12, 1, 2 -> "Зима";
             case 3, 4, 5 -> "Весна";
