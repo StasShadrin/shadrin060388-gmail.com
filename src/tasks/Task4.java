@@ -15,14 +15,14 @@ public class Task4 {
     public static void main(String[] args) {
 
         int year = 1900;
-        System.out.println(leapYear(year));
+        System.out.println(isLeapYear(year));
     }
 
-    static String leapYear (int year){
+    static String isLeapYear (int year){
 
         if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
-            return year + " - высокосный";
+            return year + " - високосный";
 
-        return year + " - не высокосный";
+        return year + " - не високосный";
     }
 }
